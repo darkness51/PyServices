@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'MainWindow.ui'
+#
+# Created: Fri Jun 11 23:46:44 2010
+#      by: PyQt4 UI code generator 4.7.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(550, 149)
+        self.verticalLayoutWidget = QtGui.QWidget(Dialog)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(10, 0, 531, 141))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.gridLayout = QtGui.QGridLayout()
+        self.gridLayout.setObjectName("gridLayout")
+        self.label = QtGui.QLabel(self.verticalLayoutWidget)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 1, 0, 1, 1)
+        self.lblStatusApache = QtGui.QLabel(self.verticalLayoutWidget)
+        self.lblStatusApache.setText("")
+        self.lblStatusApache.setObjectName("lblStatusApache")
+        self.gridLayout.addWidget(self.lblStatusApache, 1, 1, 1, 1)
+        self.rbApache = QtGui.QRadioButton(self.verticalLayoutWidget)
+        self.rbApache.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.rbApache.setText("")
+        self.rbApache.setProperty("service_id", 0)
+        self.rbApache.setObjectName("rbApache")
+        self.gridLayout.addWidget(self.rbApache, 1, 2, 1, 1)
+        self.label_2 = QtGui.QLabel(self.verticalLayoutWidget)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 2, 0, 1, 1)
+        self.lblStatusMysql = QtGui.QLabel(self.verticalLayoutWidget)
+        self.lblStatusMysql.setText("")
+        self.lblStatusMysql.setObjectName("lblStatusMysql")
+        self.gridLayout.addWidget(self.lblStatusMysql, 2, 1, 1, 1)
+        self.rbMysql = QtGui.QRadioButton(self.verticalLayoutWidget)
+        self.rbMysql.setText("")
+        self.rbMysql.setProperty("service_id", 1)
+        self.rbMysql.setObjectName("rbMysql")
+        self.gridLayout.addWidget(self.rbMysql, 2, 2, 1, 1)
+        self.label_3 = QtGui.QLabel(self.verticalLayoutWidget)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 3, 0, 1, 1)
+        self.lblPostfix = QtGui.QLabel(self.verticalLayoutWidget)
+        self.lblPostfix.setText("")
+        self.lblPostfix.setTextFormat(QtCore.Qt.PlainText)
+        self.lblPostfix.setObjectName("lblPostfix")
+        self.gridLayout.addWidget(self.lblPostfix, 3, 1, 1, 1)
+        self.rbPostfix = QtGui.QRadioButton(self.verticalLayoutWidget)
+        self.rbPostfix.setText("")
+        self.rbPostfix.setProperty("service_id", 2)
+        self.rbPostfix.setObjectName("rbPostfix")
+        self.gridLayout.addWidget(self.rbPostfix, 3, 2, 1, 1)
+        self.label_4 = QtGui.QLabel(self.verticalLayoutWidget)
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 4, 0, 1, 1)
+        self.lblSsh = QtGui.QLabel(self.verticalLayoutWidget)
+        self.lblSsh.setText("")
+        self.lblSsh.setObjectName("lblSsh")
+        self.gridLayout.addWidget(self.lblSsh, 4, 1, 1, 1)
+        self.rbSsh = QtGui.QRadioButton(self.verticalLayoutWidget)
+        self.rbSsh.setText("")
+        self.rbSsh.setProperty("service_id", 3)
+        self.rbSsh.setObjectName("rbSsh")
+        self.gridLayout.addWidget(self.rbSsh, 4, 2, 1, 1)
+        self.verticalLayout.addLayout(self.gridLayout)
+        self.horizontalLayout = QtGui.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.buttonBox = QtGui.QDialogButtonBox(self.verticalLayoutWidget)
+        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setObjectName("buttonBox")
+        self.horizontalLayout.addWidget(self.buttonBox)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("Dialog", "Apache", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("Dialog", "MySQL", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("Dialog", "Postfix", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("Dialog", "Secure Shell", None, QtGui.QApplication.UnicodeUTF8))
+
