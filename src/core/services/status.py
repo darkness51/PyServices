@@ -3,7 +3,7 @@
 
 import re, os
 #from subprocess import Popen, PIPE
-from pprint import pprint
+#from pprint import pprint
 from PyQt4.QtCore import QProcess, SIGNAL
 
 class Services ():

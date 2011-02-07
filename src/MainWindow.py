@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from PyQt4.QtCore import *
+from PyQt4.QtCore import SIGNAL
 from PyQt4.QtGui import QDialog
 from core.services.status import Services
 from gui.Ui_MainWindow import Ui_Dialog
