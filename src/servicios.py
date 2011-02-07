@@ -8,6 +8,7 @@ def main():
     print "El estado de postfix es: %s" % servicios.postfix()
     print "El estado de SSH es: %s" %servicios.ssh()
     print "El estado de PostgreSQL es: %s" %servicios.postgresql()
+    servicios.stop_all()
 
 if __name__ == "__main__":
     main()

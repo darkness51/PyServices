@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>306</width>
-    <height>334</height>
+    <height>357</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>0</x>
      <y>0</y>
      <width>305</width>
-     <height>331</height>
+     <height>351</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -54,29 +54,171 @@
      </widget>
     </item>
     <item>
-     <widget class="QTabWidget" name="tabWidget">
+     <widget class="QPushButton" name="btnStopAll">
+      <property name="text">
+       <string>Detener &amp;Todos</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="TabGroup">
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <widget class="QWidget" name="tab">
+      <widget class="QWidget" name="apacheTab">
        <attribute name="title">
         <string>Apache</string>
        </attribute>
+       <widget class="QPushButton" name="btnApacheStart">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnApacheStop">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Detener</string>
+        </property>
+       </widget>
       </widget>
-      <widget class="QWidget" name="tab_2">
+      <widget class="QWidget" name="mysqlTab">
        <attribute name="title">
         <string>MySQL</string>
        </attribute>
+       <widget class="QPushButton" name="btnMysqlStop">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Detener</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnMysqlStart">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+       </widget>
       </widget>
-      <widget class="QWidget" name="tab_3">
+      <widget class="QWidget" name="postgreTab">
        <attribute name="title">
         <string>PostgreSQL</string>
        </attribute>
+       <widget class="QPushButton" name="btnPostgreStop">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Detener</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnPostgreStart">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+       </widget>
       </widget>
-      <widget class="QWidget" name="tab_4">
+      <widget class="QWidget" name="sshTab">
        <attribute name="title">
         <string>SSH</string>
        </attribute>
+       <widget class="QPushButton" name="btnSshStop">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Detener</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnSshStart">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="postfixTab">
+       <attribute name="title">
+        <string>Postfix</string>
+       </attribute>
+       <widget class="QPushButton" name="btnPostfixStart">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Iniciar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnPostfixStop">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&amp;Detener</string>
+        </property>
+       </widget>
       </widget>
      </widget>
     </item>
