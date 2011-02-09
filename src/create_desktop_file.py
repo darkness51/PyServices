@@ -4,7 +4,7 @@ import os, re
 
 def main():
     contenido = ''
-    
+       
     try:
         f = open("../template.txt", 'r')
         d = open("../PyServices.desktop", 'w+')
