@@ -20,3 +20,5 @@ Lo primero que hay que hacer al clonar el repositorio es ingresar al directorio 
 	./create_desktop_file.py
 	
 Con esto, tendremos fuera de la carpeta `src` un archivo llamado PyServices.desktop que nos servirá para ejecutar nuestra aplicación con los permisos necesarios para que funcione.
+
+El archivo .desktop estoy seguro que funciona de momento, sólo con KDE que es mi entorno de escritorio.
