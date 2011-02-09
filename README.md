@@ -15,4 +15,8 @@ De momento, es capaz de gestionar los siguientes servicios:
   
 Si un servicio de los anteriores no se encuentra instalado, el programa deshabilita la pestaña. Además, permite para todos los servicios al mismo tiempo.
 
-De momento, hasta que no cree un archivo .desktop, necesita que se ejecute con kdesudo o que se cree una entrada en el menu que haga que se ejecute como root.
+Lo primero que hay que hacer al clonar el repositorio es ingresar al directorio `src` y luego ejecutar el siguiente comando:
+
+	./create_desktop_file.py
+	
+Con esto, tendremos fuera de la carpeta `src` un archivo llamado PyServices.desktop que nos servirá para ejecutar nuestra aplicación con los permisos necesarios para que funcione.
