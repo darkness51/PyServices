@@ -14,3 +14,5 @@ De momento, es capaz de gestionar los siguientes servicios:
   - Postfix
   
 Si un servicio de los anteriores no se encuentra instalado, el programa deshabilita la pestaña. Además, permite para todos los servicios al mismo tiempo.
+
+De momento, hasta que no cree un archivo .desktop, necesita que se ejecute con kdesudo o que se cree una entrada en el menu que haga que se ejecute como root.
