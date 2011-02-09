@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gui/MainWindow.ui'
 #
-# Created: Mon Feb  7 00:25:54 2011
+# Created: Tue Feb  8 21:37:15 2011
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -25,7 +25,7 @@ class Ui_Dialog(object):
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.label = QtGui.QLabel(self.verticalLayoutWidget)
         font = QtGui.QFont()
-        font.setPointSize(48)
+        font.setPointSize(40)
         font.setWeight(75)
         font.setBold(True)
         self.label.setFont(font)
